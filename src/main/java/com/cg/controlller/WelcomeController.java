@@ -17,4 +17,13 @@ public class WelcomeController {
 		return "welcome in mumbai";
 	}
 
+	
+	@GetMapping("/fetch")
+	public String welcome() {
+		return "welcome in java programming";
+		
+	}
+	
+	
+	
 }
