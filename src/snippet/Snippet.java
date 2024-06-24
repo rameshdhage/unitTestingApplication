@@ -1,0 +1,18 @@
+package snippet;
+
+public class Snippet {
+	 #jdbc-mysql
+	 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+	 spring.datasource.url=jdbc:mysql://localhost:3306/application
+	 spring.datasource.username=root
+	 spring.datasource.password=ramesh143
+	
+	spring.data.jpa.repositories.enabled=true
+	spring.jpa.database=mysql
+	 spring.jpa.hibernate.ddl-auto=update
+	 spring.jpa.show-sql=true
+	spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+	
+	
+}
+
